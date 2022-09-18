@@ -40,7 +40,7 @@ $(document).ready(function() {
         $("h1").text("Microtúbulo")
     });
     $('.mitocondria').hover(function() {
-        $("#imagem").attr("src","/images/mitocondrias.png");
+        $("#imagem").attr("src","images/Mitocondrias.png");
         $("p").text("As mitocôndrias possuem o próprio DNA (se reproduzem sozinhas) e o próprio ribossomo. Estão envolvidas por uma membrana dupla (interna e externa), chamada de cristas mitocondriais.  Elas realizam a respiração celular e produzem grande parte de energia (ATP) essenciais para manter o funcionamento das células.")
         $("h1").text("Mitocôndria")
     });
