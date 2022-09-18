@@ -5,7 +5,7 @@ $(document).ready(function() {
         $("h1").text("Retículo Endoplasmatico Rugoso")
     });
     $('.nucleo').hover(function() {
-        $("#imagem").attr("src","images/nucleo.png");
+        $("#imagem").attr("src","images/Nucleo.png");
         $("p").text("O núcleo é a maior organela existente em uma célula eucarionte, pois ele é responsável por guardar o material genético, o DNA do ser vivo e comandar tudo que acontece dentro da célula.")
         $("h1").text("Núcleo")
     });
@@ -15,12 +15,12 @@ $(document).ready(function() {
         $("h1").text("Retículo Endoplasmatico Liso")
     });
     $('.Ribossomos').hover(function() {
-        $("#imagem").attr("src","images/ribossomos.png");
+        $("#imagem").attr("src","images/Ribossomos.png");
         $("p").text("Os ribossomos são pequenas estruturas em forma de grânulo. São encontradas tanto em indivíduos eucariontes quanto procariontes (não possuem a carioteca). A sua presença é muito importante, uma vez que ela atua no controle e regeneração das células.")
         $("h1").text("Ribossomo")
     });
     $('.centriolos').hover(function() {
-        $("#imagem").attr("src","images/centriolos.png");
+        $("#imagem").attr("src","images/Centriolos.png");
         $("p").text("Os centríolos são organelas formadas por microtúbulos que vão ajudar os cromossomos a se separarem na hora da divisão celular (mitose e meiose). Estão presentes também em cílios e flagelos, auxiliando na locomoção de algumas células.")
         $("h1").text("Centríolo")
     });
@@ -40,7 +40,7 @@ $(document).ready(function() {
         $("h1").text("Microtúbulo")
     });
     $('.mitocondria').hover(function() {
-        $("#imagem").attr("src","/images/Mitocondrias.png");
+        $("#imagem").attr("src","/images/mitocondrias.png");
         $("p").text("As mitocôndrias possuem o próprio DNA (se reproduzem sozinhas) e o próprio ribossomo. Estão envolvidas por uma membrana dupla (interna e externa), chamada de cristas mitocondriais.  Elas realizam a respiração celular e produzem grande parte de energia (ATP) essenciais para manter o funcionamento das células.")
         $("h1").text("Mitocôndria")
     });
